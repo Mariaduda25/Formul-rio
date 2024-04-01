@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F O R M U L Á R I O</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- O elemento Form define um formulário. -->
+    <form action="forms.html" method="post">
+        <div>
+            <!-- O elemento label é a maneira formal de definir um rótulo para um widget de formulário HTML. -->
+            <label for="Nome">Nome:</label>
+            <!-- Com o <label> associado corretamente ao <input> por meio de seus atributos 'for' e 'id' respectivamente, o 'label' do atributo faz referência ao atributo id do widget correspondente. -->
+           <input type="text" id="Nome" />
+         </div>
+         <div>
+            <label for="Email">Email:</label>
+            <input type="text" id="Email" />
+         </div>
+         <div class="button">
+            <button type="submit">Enviar</button>
+         </div>
+         <!-- O "container form" se refere a um elemento HTML que envolve um formulário, que é usado para coletar informações do usuário.  -->
+
+         <!-- Os tipos de input :
+         Text: Permite que os usuários insiram texto.
+        Password:Similar ao tipo de texto, mas os caracteres inseridos são ocultos.
+        Number:Aceita apenas números.
+        Email:Verifica se o valor inserido corresponde a um formato de e-mail válido.
+        Checkbox:Permite que os usuários selecionem várias opções de uma lista.
+        Radio:Permite que os usuários escolham uma opção de um grupo de opções.
+        File: Permite que os usuários enviem arquivos para o servidor.-->
+
+        <!-- O método POST é usado para enviar dados de um formulário HTML para um servidor web.  -->
+    </form>
+</body>
+</html>
